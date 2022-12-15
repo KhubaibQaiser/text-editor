@@ -105,3 +105,36 @@ a {
     color-scheme: dark;
   }
 }
+
+.d-flex {
+  display: flex;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.codeBlock {
+  background-color: lightgrey;
+  color: black;
+}
+
+:where([data-slate-editor]) {
+  max-width: 400px;
+  width: 400px;
+  background-color: white;
+  color: black;
+  padding: 16px;
+}
